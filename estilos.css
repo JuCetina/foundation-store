@@ -1,0 +1,87 @@
+header{
+    border-top: 6px solid black;
+}
+
+a{
+    color: black;
+}
+
+hr{
+    border-bottom-style: dotted;
+    margin: 10px 0;
+}
+
+.h6{
+    margin-bottom: 0;
+}
+
+.menu a{
+    padding-bottom: 0;
+}
+
+main{
+    margin-top: 20px;
+}
+
+#products-list{
+    margin: 20px 0;
+}
+
+.vertical{
+    text-transform: uppercase;
+}
+
+.negrilla{
+    font-weight: 700;
+}
+
+.product{
+    position: relative;
+}
+
+.new{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #c00;
+}
+
+.promotion{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    background: black;
+}
+
+.promotion i{
+    float: right;
+}
+
+.product:hover .promotion{
+    display: block;
+}
+
+.product .hover{
+    display: none;
+}
+
+.product:hover .normal{
+    display: none;
+}
+
+.product:hover .hover{
+    display: block;
+}
+
+.button{
+    float: right;
+    text-transform: uppercase;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
